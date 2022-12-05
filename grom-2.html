@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <title>Дурак и молния</title>
+    <style>
+      /* .note {
+        position: absolute;
+        /* margin-left: 500px; */
+      /* } */
+      */ #btn {
+        margin-left: 50%;
+      }
+      .highlight {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h2>Аппликатура для блокфлейты сопрано C (немецкая система)</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="img/flute.png" alt="Блокфлейта" id="basic" class="note" />
+          <img src="img/do.png" alt="До" id="do" class="note" hidden />
+          <img
+            src="img/do-diez.png"
+            alt="До диез"
+            id="do-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/re.png" alt="Ре" id="re" class="note" hidden />
+          <img
+            src="img/re-diez.png"
+            alt="Ре диез"
+            id="re-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/mi.png" alt="Ми" id="mi" class="note" hidden />
+          <img src="img/fa.png" alt="Фа" id="fa" class="note" hidden />
+          <img
+            src="img/fa-diez.png"
+            alt="Фа диез"
+            id="fa-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/sol.png" alt="Соль" id="sol" class="note" hidden />
+          <img
+            src="img/sol-diez.png"
+            alt="Соль диез"
+            id="sol-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/la.png" alt="Ля" id="la" class="note" hidden />
+          <img
+            src="img/la-diez.png"
+            alt="Ля диез"
+            id="la-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/si.png" alt="Си" id="si" class="note" hidden />
+          <img src="img/do2.png" alt="До" id="do2" class="note" hidden />
+          <img
+            src="img/do2-diez.png"
+            alt="До диез"
+            id="do2-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/re2.png" alt="Ре" id="re2" class="note" hidden />
+          <img
+            src="img/re2-diez.png"
+            alt="Ре диез"
+            id="re2-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/mi2.png" alt="Ми" id="mi2" class="note" hidden />
+          <img src="img/fa2.png" alt="Фа" id="fa2" class="note" hidden />
+          <img
+            src="img/fa2-diez.png"
+            alt="Фа диез"
+            id="fa2-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/sol2.png" alt="Соль" id="sol2" class="note" hidden />
+          <img
+            src="img/sol2-diez.png"
+            alt="Соль диез"
+            id="sol2-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/la2.png" alt="Ля" id="la2" class="note" hidden />
+          <img
+            src="img/la2-diez.png"
+            alt="Ля диез"
+            id="la2-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/si2.png" alt="Си" id="si2" class="note" hidden />
+          <img src="img/do3.png" alt="До" id="do3" class="note" hidden />
+          <img
+            src="img/do3-diez.png"
+            alt="До диез"
+            id="do3-diez"
+            class="note"
+            hidden
+          />
+          <img src="img/re3.png" alt="Ре" id="re3" class="note" hidden />
+        </div>
+
+        <div class="col-sm-6">
+          <p>
+            <span class="t1">Гро</span><span class="t2">хо</span
+            ><span class="t3">чет</span> <span class="t4">гром</span>,
+          </p>
+          <p>
+            <span class="t5">Свер</span><span class="t6">ка</span
+            ><span class="t7">ет</span> <span class="t8">мол</span
+            ><span class="t9">ни</span><span class="t10">я</span>
+            <span class="t11">в но</span><span class="t12">чи</span>,
+          </p>
+          <p>
+            <span class="t13">А</span> <span class="t14">на</span>
+            <span class="t15">хол</span><span class="t16">ме</span>
+          </p>
+          <p>
+            <span class="t17">Cто</span><span class="t18">ит</span>
+            <span class="t19">бе</span><span class="t20">зу</span
+            ><span class="t21">мец</span> <span class="t22">и</span>
+            <span class="t23">кри</span><span class="t24">чит</span>:
+          </p>
+          <p>
+            <span class="t25">"Сей</span><span class="t26">час</span>
+            <span class="t27">пой</span><span class="t28">ма</span
+            ><span class="t29">ю</span> <span class="t30">те</span
+            ><span class="t31">бя</span> <span class="t32">в сум</span
+            ><span class="t33">ку</span>,
+          </p>
+          <p>
+            <span class="t34">И</span> <span class="t35">свер</span
+            ><span class="t36">кать</span> <span class="t37">ты</span>
+            <span class="t38">бу</span><span class="t39">дешь</span>
+            <span class="t40">в ней</span>.
+          </p>
+          <p>
+            <span class="t41">Мне</span> <span class="t42">так</span>
+            <span class="t43">хо</span><span class="t44">чет</span
+            ><span class="t45">ся</span>,
+          </p>
+          <p>
+            <span class="t46">Чтоб</span> <span class="t47">ста</span
+            ><span class="t48">ла</span> <span class="t49">ты</span>
+            <span class="t50">мо</span><span class="t51">ей</span>!"
+          </p>
+          <p><br /></p>
+          <p>
+            <span class="t52">То</span> <span class="t53">па</span
+            ><span class="t54">рень</span> <span class="t55">к ле</span
+            ><span class="t56">су</span> <span class="t57">мчит</span
+            ><span class="t58">ся</span>,
+          </p>
+          <p>
+            <span class="t59">То</span> <span class="t60">к по</span
+            ><span class="t61">лю</span>, <span class="t62">то</span>
+            <span class="t63">к ручь</span><span class="t64">ю</span>.
+          </p>
+          <p>
+            <span class="t65">Всё</span> <span class="t66">пой</span
+            ><span class="t67">мать</span> <span class="t68">стре</span
+            ><span class="t69">мит</span><span class="t70">ся</span>
+          </p>
+          <p>
+            <span class="t71">Мол</span><span class="t72">ни</span
+            ><span class="t73">ю</span>!
+          </p>
+        </div>
+      </div>
+    </div>
+    <button id="btn">Играть музыку</button>
+
+    <script>
+      let flute = document.getElementById("flute");
+
+      let nDo = document.getElementById("do");
+      let nDoDiez = document.getElementById("do-diez");
+      let nRe = document.getElementById("re");
+      let nReDiez = document.getElementById("re-diez");
+      let nMi = document.getElementById("mi");
+      let nFa = document.getElementById("fa");
+      let nFaDiez = document.getElementById("fa-diez");
+      let nSol = document.getElementById("sol");
+      let nSolDiez = document.getElementById("sol-diez");
+      let nLa = document.getElementById("la");
+      let nLaDiez = document.getElementById("la-diez");
+      let nSi = document.getElementById("si");
+      let nDo2 = document.getElementById("do2");
+      let nDo2Diez = document.getElementById("do2-diez");
+      let nRe2 = document.getElementById("re2");
+      let nRe2Diez = document.getElementById("re2-diez");
+      let nMi2 = document.getElementById("mi2");
+      let nFa2 = document.getElementById("fa2");
+      let nFa2Diez = document.getElementById("fa2-diez");
+      let nSol2 = document.getElementById("sol2");
+      let nSol2Diez = document.getElementById("sol2-diez");
+      let nLa2 = document.getElementById("la2");
+      let nLa2Diez = document.getElementById("la2-diez");
+      let nSi2 = document.getElementById("si2");
+      let nDo3 = document.getElementById("do3");
+      let nDo3Diez = document.getElementById("do3-diez");
+      let nRe3 = document.getElementById("re3");
+
+      let btn = document.getElementById("btn");
+
+      btn.addEventListener("click", () => {
+        // Строка 1
+        setTimeout(() => {
+          // flute.hidden = true;
+          nLa.hidden = false;
+          $(".t1").addClass("highlight");
+        }, 1000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nDo2.hidden = false;
+          $(".t1").removeClass("highlight");
+          $(".t2").addClass("highlight");
+        }, 2000);
+        setTimeout(() => {
+          nDo2.hidden = true;
+          nLa.hidden = false;
+          $(".t2").removeClass("highlight");
+          $(".t3").addClass("highlight");
+        }, 3000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nFa.hidden = false;
+          $(".t3").removeClass("highlight");
+          $(".t4").addClass("highlight");
+        }, 4000);
+        // Строка 2
+        setTimeout(() => {
+          nFa.hidden = true;
+          nMi.hidden = false;
+          $(".t4").removeClass("highlight");
+          $(".t5").addClass("highlight");
+        }, 5000);
+        setTimeout(() => {
+          nMi.hidden = true;
+          nLa.hidden = false;
+          $(".t5").removeClass("highlight");
+          $(".t6").addClass("highlight");
+        }, 6000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nSol.hidden = false;
+          $(".t6").removeClass("highlight");
+          $(".t7").addClass("highlight");
+        }, 7000);
+        setTimeout(() => {
+          nSol.hidden = true;
+          nFa.hidden = false;
+          $(".t7").removeClass("highlight");
+          $(".t8").addClass("highlight");
+        }, 8000);
+        setTimeout(() => {
+          nFa.hidden = true;
+          nFa.hidden = false;
+          $(".t8").removeClass("highlight");
+          $(".t9").addClass("highlight");
+        }, 9000);
+        setTimeout(() => {
+          nFa.hidden = true;
+          nSol.hidden = false;
+          $(".t9").removeClass("highlight");
+          $(".t10").addClass("highlight");
+        }, 10000);
+        setTimeout(() => {
+          nSol.hidden = true;
+          nLa.hidden = false;
+          $(".t10").removeClass("highlight");
+          $(".t11").addClass("highlight");
+        }, 11000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nFa.hidden = false;
+          $(".t11").removeClass("highlight");
+          $(".t12").addClass("highlight");
+        }, 12000);
+        // Строка 3
+        setTimeout(() => {
+          nFa.hidden = true;
+          nLa.hidden = false;
+          $(".t12").removeClass("highlight");
+          $(".t13").addClass("highlight");
+        }, 13000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nDo2.hidden = false;
+          $(".t13").removeClass("highlight");
+          $(".t14").addClass("highlight");
+        }, 14000);
+        setTimeout(() => {
+          nDo2.hidden = true;
+          nLa.hidden = false;
+          $(".t14").removeClass("highlight");
+          $(".t15").addClass("highlight");
+        }, 15000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nFa.hidden = false;
+          $(".t15").removeClass("highlight");
+          $(".t16").addClass("highlight");
+        }, 16000);
+        // Строка 4
+        setTimeout(() => {
+          nFa.hidden = true;
+          nMi.hidden = false;
+          $(".t16").removeClass("highlight");
+          $(".t17").addClass("highlight");
+        }, 17000);
+        setTimeout(() => {
+          nMi.hidden = true;
+          nLa.hidden = false;
+          $(".t17").removeClass("highlight");
+          $(".t18").addClass("highlight");
+        }, 18000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nSol.hidden = false;
+          $(".t18").removeClass("highlight");
+          $(".t19").addClass("highlight");
+        }, 19000);
+        setTimeout(() => {
+          nSol.hidden = true;
+          nFa.hidden = false;
+          $(".t19").removeClass("highlight");
+          $(".t20").addClass("highlight");
+        }, 20000);
+        setTimeout(() => {
+          nFa.hidden = true;
+          nFa.hidden = false;
+          $(".t20").removeClass("highlight");
+          $(".t21").addClass("highlight");
+        }, 21000);
+        setTimeout(() => {
+          nFa.hidden = true;
+          nSol.hidden = false;
+          $(".t21").removeClass("highlight");
+          $(".t22").addClass("highlight");
+        }, 22000);
+        setTimeout(() => {
+          nSol.hidden = true;
+          nLa.hidden = false;
+          $(".t22").removeClass("highlight");
+          $(".t23").addClass("highlight");
+        }, 23000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nFa.hidden = false;
+          $(".t23").removeClass("highlight");
+          $(".t24").addClass("highlight");
+        }, 24000);
+        // Строка 5
+        setTimeout(() => {
+          nFa.hidden = true;
+          nLa.hidden = false;
+          $(".t24").removeClass("highlight");
+          $(".t25").addClass("highlight");
+        }, 25000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nLa.hidden = false;
+          $(".t25").removeClass("highlight");
+          $(".t26").addClass("highlight");
+        }, 26000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nLa.hidden = false;
+          $(".t26").removeClass("highlight");
+          $(".t27").addClass("highlight");
+        }, 27000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nRe2.hidden = false;
+          $(".t27").removeClass("highlight");
+          $(".t28").addClass("highlight");
+        }, 28000);
+        setTimeout(() => {
+          nRe2.hidden = true;
+          nRe2.hidden = false;
+          $(".t28").removeClass("highlight");
+          $(".t29").addClass("highlight");
+        }, 29000);
+        setTimeout(() => {
+          nRe2.hidden = true;
+          nRe2.hidden = false;
+          $(".t29").removeClass("highlight");
+          $(".t30").addClass("highlight");
+        }, 30000);
+        setTimeout(() => {
+          nRe2.hidden = true;
+          nRe2.hidden = false;
+          $(".t30").removeClass("highlight");
+          $(".t31").addClass("highlight");
+        }, 31000);
+        setTimeout(() => {
+          nRe2.hidden = true;
+          nMi2.hidden = false;
+          $(".t31").removeClass("highlight");
+          $(".t32").addClass("highlight");
+        }, 32000);
+        setTimeout(() => {
+          nMi2.hidden = true;
+          nLa.hidden = false;
+          $(".t32").removeClass("highlight");
+          $(".t33").addClass("highlight");
+        }, 33000);
+        // Строка 6
+        setTimeout(() => {
+          nLa.hidden = true;
+          nLa.hidden = false;
+          $(".t33").removeClass("highlight");
+          $(".t34").addClass("highlight");
+        }, 34000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nLa.hidden = false;
+          $(".t34").removeClass("highlight");
+          $(".t35").addClass("highlight");
+        }, 35000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nFa2.hidden = false;
+          $(".t35").removeClass("highlight");
+          $(".t36").addClass("highlight");
+        }, 36000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t36").removeClass("highlight");
+          $(".t37").addClass("highlight");
+        }, 37000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nSol2.hidden = false;
+          $(".t37").removeClass("highlight");
+          $(".t38").addClass("highlight");
+        }, 38000);
+        setTimeout(() => {
+          nSol2.hidden = true;
+          nLa2.hidden = false;
+          $(".t38").removeClass("highlight");
+          $(".t39").addClass("highlight");
+        }, 39000);
+        setTimeout(() => {
+          nLa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t39").removeClass("highlight");
+          $(".t40").addClass("highlight");
+        }, 40000);
+        // Строка 7
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t40").removeClass("highlight");
+          $(".t41").addClass("highlight");
+        }, 41000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t41").removeClass("highlight");
+          $(".t42").addClass("highlight");
+        }, 42000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nSol2.hidden = false;
+          $(".t42").removeClass("highlight");
+          $(".t43").addClass("highlight");
+        }, 43000);
+        setTimeout(() => {
+          nSol2.hidden = true;
+          nFa2.hidden = false;
+          $(".t43").removeClass("highlight");
+          $(".t44").addClass("highlight");
+        }, 44000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t44").removeClass("highlight");
+          $(".t45").addClass("highlight");
+        }, 45000);
+        // Строка 8
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t45").removeClass("highlight");
+          $(".t46").addClass("highlight");
+        }, 46000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nSol2.hidden = false;
+          $(".t46").removeClass("highlight");
+          $(".t47").addClass("highlight");
+        }, 47000);
+        setTimeout(() => {
+          nSol2.hidden = true;
+          nFa2.hidden = false;
+          $(".t47").removeClass("highlight");
+          $(".t48").addClass("highlight");
+        }, 48000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nLa.hidden = false;
+          $(".t48").removeClass("highlight");
+          $(".t49").addClass("highlight");
+        }, 49000);
+        setTimeout(() => {
+          nLa.hidden = true;
+          nSol2.hidden = false;
+          $(".t49").removeClass("highlight");
+          $(".t50").addClass("highlight");
+        }, 50000);
+        setTimeout(() => {
+          nSol2.hidden = true;
+          nRe2.hidden = false;
+          $(".t50").removeClass("highlight");
+          $(".t51").addClass("highlight");
+        }, 51000);
+        // Припев
+        // Строка 9
+        setTimeout(() => {
+          nRe2.hidden = true;
+          nFa2.hidden = false;
+          $(".t51").removeClass("highlight");
+          $(".t52").addClass("highlight");
+        }, 52000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t52").removeClass("highlight");
+          $(".t53").addClass("highlight");
+        }, 53000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t53").removeClass("highlight");
+          $(".t54").addClass("highlight");
+        }, 54000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nMi2.hidden = false;
+          $(".t54").removeClass("highlight");
+          $(".t55").addClass("highlight");
+        }, 55000);
+        setTimeout(() => {
+          nMi2.hidden = true;
+          nMi2.hidden = false;
+          $(".t55").removeClass("highlight");
+          $(".t56").addClass("highlight");
+        }, 56000);
+        setTimeout(() => {
+          nMi2.hidden = true;
+          nFa2.hidden = false;
+          $(".t56").removeClass("highlight");
+          $(".t57").addClass("highlight");
+        }, 57000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nRe2.hidden = false;
+          $(".t57").removeClass("highlight");
+          $(".t58").addClass("highlight");
+        }, 58000);
+        // Строка 10
+        setTimeout(() => {
+          nRe2.hidden = true;
+          nFa2.hidden = false;
+          $(".t58").removeClass("highlight");
+          $(".t59").addClass("highlight");
+        }, 59000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t59").removeClass("highlight");
+          $(".t60").addClass("highlight");
+        }, 60000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t60").removeClass("highlight");
+          $(".t61").addClass("highlight");
+        }, 61000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nMi2.hidden = false;
+          $(".t61").removeClass("highlight");
+          $(".t62").addClass("highlight");
+        }, 62000);
+        setTimeout(() => {
+          nMi2.hidden = true;
+          nMi2.hidden = false;
+          $(".t62").removeClass("highlight");
+          $(".t63").addClass("highlight");
+        }, 63000);
+        setTimeout(() => {
+          nMi2.hidden = true;
+          nFa2.hidden = false;
+          $(".t63").removeClass("highlight");
+          $(".t64").addClass("highlight");
+        }, 64000);
+        // Строка 11
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t64").removeClass("highlight");
+          $(".t65").addClass("highlight");
+        }, 65000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t65").removeClass("highlight");
+          $(".t66").addClass("highlight");
+        }, 66000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nSol2.hidden = false;
+          $(".t66").removeClass("highlight");
+          $(".t67").addClass("highlight");
+        }, 67000);
+        setTimeout(() => {
+          nSol2.hidden = true;
+          nSol2.hidden = false;
+          $(".t67").removeClass("highlight");
+          $(".t68").addClass("highlight");
+        }, 68000);
+        setTimeout(() => {
+          nSol2.hidden = true;
+          nLa2.hidden = false;
+          $(".t68").removeClass("highlight");
+          $(".t69").addClass("highlight");
+        }, 69000);
+        setTimeout(() => {
+          nLa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t69").removeClass("highlight");
+          $(".t70").addClass("highlight");
+        }, 70000);
+        // Строка 12
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nFa2.hidden = false;
+          $(".t70").removeClass("highlight");
+          $(".t71").addClass("highlight");
+        }, 71000);
+        setTimeout(() => {
+          nFa2.hidden = true;
+          nMi2.hidden = false;
+          $(".t71").removeClass("highlight");
+          $(".t72").addClass("highlight");
+        }, 72000);
+        setTimeout(() => {
+          nMi2.hidden = true;
+          nRe2.hidden = false;
+          $(".t72").removeClass("highlight");
+          $(".t73").addClass("highlight");
+        }, 73000);
+        setTimeout(() => {
+          nRe2.hidden = true;
+        }, 74000);
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
